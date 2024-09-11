@@ -7,22 +7,32 @@
     <meta name="keywords" content="mths isc2o">
     <meta name="author" content="Mr. Coxall">
     <meta name="viewport" content="width=device-width, intital-scale=1.0">
-    <title>My firsy Webpage with, proper style</title>
+    <title>Cities</title>
   </head>
+  
   <style>
+    /* Style the elementwith the id "myHeader" */
     #my-header {
-      background-color: rgb(255, 165, 0);
-      color: hsl(147, 50%, 47%);
+      background-color: lightblue;
+      color: black;
       padding: 40px;
       text-align: center;
     }
+    /* Style all elements with the class name "city" */
+    .city{
+      background-color: tomato;
+      color: white;
+      padding: 10px
+    }
   </style>
-  <body style="background-color:powderblue;">
-    <h1 id="my-header">Style is important</h1>
-    <p style="background-color:#ff00ff;">Proper HTML style is important</p>
-    <img src="./images/HTML-style-guide.jpeg" alt="style">
-    <p>
-      <a herf="./cities.html">My cities page</a>
-    </p>
+  
+  <body style="background-color:green;">
+    <!-- An element with an unique id -->
+    <h1 id="myHeader">Capital Cities</h1>
+    
+    <!-- Multiple elements with same class -->
+    <h2 class="city">Ottawa</h2>
+    <p>Ottawa is the Capital of Canada</p>
+    <img src="./images/flag-of-Canada.png" alt="canada">
   </body>
 </html>
