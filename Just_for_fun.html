@@ -1,18 +1,61 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <meta charset="utf-8">
-    <title>The Tragedy of Darth Plagueis the Wise</title>
-  </head>
-  <body>
-    <h1>The Tragedy of Darth Plagueis the Wise</h1>
-    <p>Did you ever her the Tragedy of Darth Plagueis the Wise?</p>
-    <p>No</p>
-    <p>I thought not, it's not a story the Jedi would tell you, it's a Sith legend</p>
-    <p>Darth Plagueis was the dark lord of the Sith, he was so powerful and so wise. He could use the Force to influence the midi-chlorians, to create...life</p>
-    <p>He had such a knowledge of the dark side of the Force, he could even keep the ones he cared about...from dying</p>
-    <p>He could actually...save people from death?</p>
-    <p>The dark side of the Force is a pathway to many abilities, some are consider to be unnatural.</p>
-    <p>Wh-what happened to him?</p>
-  </body>
+<html>
+   <head>
+      <link rel = "stylesheet" 
+         href = "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+      <script src = "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
+      </script>
+      <link rel = "stylesheet" 
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+   </head>
+   
+   <body>
+      <!-- The drawer is always open in large screens. The header is always 
+         shown, even in small screens. -->
+      <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+         <header class = "mdl-layout__header">
+            <!-- Top row, always visible -->
+            <div class = "mdl-layout__header-row">
+               <!-- Title -->
+               <span class = "mdl-layout-title">HTML5 Tutorial</span>          
+            </div>
+         
+            <!-- Tabs -->
+            <div class = "mdl-layout__tab-bar mdl-js-ripple-effect">
+               <a href = "#scroll-tab-1" class = "mdl-layout__tab is-active">Tab 1</a>
+               <a href = "#scroll-tab-2" class = "mdl-layout__tab">Tab 2</a>
+               <a href = "#scroll-tab-3" class = "mdl-layout__tab">Tab 3</a>     
+            </div>
+         </header>
+         
+         <div class = "mdl-layout__drawer">
+            <span class = "mdl-layout-title">HTML5 Tutorial</span>
+            <nav class = "mdl-navigation">
+               <a class = "mdl-navigation__link" href = "">Home</a>
+               <a class = "mdl-navigation__link" href = "">About</a>    
+            </nav>
+         </div>
+         
+         <main class = "mdl-layout__content">
+            <section class = "mdl-layout__tab-panel is-active" id = "scroll-tab-1">
+              <div class = "page-content">Hello there</div>
+              <div class = "page-content">General Kenobi</div>
+              <div class = "page-content">Kill him</div>
+              <div class = "page-content">Back away</div>
+              <div class = "page-content">I will deal with this Jedi slime myself</div>
+              <div class = "page-content">Your move</div>
+              <div class = "page-content">You fool, I have been trained in your Jedi arts by count Dooku</div>
+              <div class = "page-content">Attack, Kenobi</div>
+              <div class = "page-content">Army or not, you must realize, you are doomed</div>
+              <div class = "page-content">Oh, I don't think so</div>
+            </section>
+            <section class = "mdl-layout__tab-panel" id = "scroll-tab-2">
+               <div class = "page-content">Did you ever hear the Tragedy of Darth Plagueis the Wise?</div>
+            </section>
+            <section class = "mdl-layout__tab-panel" id = "scroll-tab-3">
+               <div class = "page-content">Let her go, Anakin, let her go!</div>
+            </section>
+         </main>
+      </div>
+   
+   </body>
 </html>
